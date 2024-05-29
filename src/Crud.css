@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: aqua;
+}
+
+.form-container {
+    background: #fff;
+    padding: 20px 30px;
+    margin: 0px auto;
+    width: 400px;
+    margin-top: 50px;
+}
+
+.form-container h2 {
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.form-container .box {
+    margin-top: 10px;
+    width: 100%
+}
+
+.form-container .box input {
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border: 1px solid gray;
+}
+
+.form-container button {
+    margin-left: 20px;
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    background: rgb(172, 172, 224);
+    color: #fff;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.database {
+    padding: 20px 40px;
+    width: 100%
+}
+
+.database h2 {
+    color: rgb(137, 132, 132);
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.database .container {
+    display: flex;
+
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+.database .container .box {
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-left: 15px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.database .container .box h3 {
+    margin-top: 5px;
+    font-size: 16px;
+    color: black;
+}
+
+.database .container .box button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: rgb(146, 146, 235);
+    color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
